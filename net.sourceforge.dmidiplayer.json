@@ -80,6 +80,9 @@
     {
       "name": "dmidiplayer",
       "buildsystem": "cmake-ninja",
+      "config-opts": [
+        "-DBUILD_DOCS=OFF"
+      ],
       "post-install": [
         "install -Dm644 -t /app/share/metainfo/ net.sourceforge.dmidiplayer.appdata.xml"
       ],
