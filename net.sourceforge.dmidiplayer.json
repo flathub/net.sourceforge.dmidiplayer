@@ -51,8 +51,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://downloads.sourceforge.net/project/drumstick/2.2.1/drumstick-2.2.1.tar.bz2",
-          "sha256": "5315d41243b9a973c88f0f7d05d900b298a447d365bb7d9c95fdbc713c9ff96e"
+          "url": "https://downloads.sourceforge.net/project/drumstick/2.3.0/drumstick-2.3.0.tar.bz2",
+          "sha256": "132ab9af7504939eb1ffd3500d89e4484bc2591e8c5ade0a2f2a87e4ac9e0a8a"
         }
       ]
     },
@@ -89,8 +89,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://downloads.sourceforge.net/project/dmidiplayer/v1.3.1/dmidiplayer-1.3.1.tar.bz2",
-          "sha256": "35dd1cbceb99ce5c024a06db96b55ef90937762275f3d3311131476de5dcde97"
+          "url": "http://downloads.sourceforge.net/project/dmidiplayer/v1.4.0/dmidiplayer-1.4.0.tar.bz2",
+          "sha256": "bdfaeee156be3719e3809239b18384ffdbcc8b6b4cfbdf2bfac8c73a010a44d8"
         }
       ]
     }
