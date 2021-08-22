@@ -91,6 +91,10 @@
           "type": "archive",
           "url": "http://downloads.sourceforge.net/project/dmidiplayer/v1.5.0/dmidiplayer-1.5.0.tar.bz2",
           "sha256": "810bafc2cbdfb7d3f0faf871462ffb4af0fc58331631cad8a71f58e29716544e"
+        },
+        {
+          "type": "patch",
+          "path": "0001-optional-pandoc-at-build-time.patch"
         }
       ]
     }

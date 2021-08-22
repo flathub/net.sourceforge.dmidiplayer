@@ -1,0 +1,28 @@
+From 4b01d7911828bd770cdc6d59a56d44fd509b5b94 Mon Sep 17 00:00:00 2001
+Message-Id: <4b01d7911828bd770cdc6d59a56d44fd509b5b94.1629656511.git.plcl@users.sourceforge.net>
+From: =?UTF-8?q?Pedro=20L=C3=B3pez-Cabanillas?= <plcl@users.sourceforge.net>
+Date: Sun, 22 Aug 2021 20:20:54 +0200
+Subject: [PATCH] optional pandoc at build time
+
+---
+ CMakeLists.txt | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 24bbc3a..522f353 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -205,7 +205,9 @@ message (STATUS "Drumstick MIDI File Player v${PROJECT_VERSION}
+ )
+ 
+ add_executable ( ${PROJECT_NAME} ${SOURCES} )
+-add_dependencies ( ${PROJECT_NAME} update_helpfiles)
++if (EXISTS ${PANDOC_EXECUTABLE})
++    add_dependencies ( ${PROJECT_NAME} update_helpfiles)
++endif()
+ 
+ target_link_libraries ( ${PROJECT_NAME} PRIVATE
+     Qt${QT_VERSION_MAJOR}::Widgets
+-- 
+2.16.4
+
