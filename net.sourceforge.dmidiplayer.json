@@ -33,6 +33,10 @@
       "name": "drumstick",
       "buildsystem": "cmake-ninja",
       "config-opts": [
+        "-DBUILD_ALSA=ON", 
+        "-DBUILD_FILE=ON", 
+        "-DBUILD_RT=ON", 
+        "-DBUILD_WIDGETS=ON",
         "-DBUILD_DOCS=OFF",
         "-DBUILD_UTILS=OFF",
         "-DBUILD_TESTING=OFF"
@@ -51,8 +55,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://downloads.sourceforge.net/project/drumstick/2.4.1/drumstick-2.4.1.tar.bz2",
-          "sha256": "9e6aa04b4f19050daf0440eda2b88d6d82da3500350d678385b468ef4ac138fd"
+          "url": "https://downloads.sourceforge.net/project/drumstick/2.5.0/drumstick-2.5.0.tar.bz2",
+          "sha256": "8709d8a7c438c1d09091827ce5fd8286d387a046a8f717a1a34546d9ca3d902a"
         }
       ]
     },
@@ -83,14 +87,11 @@
       "config-opts": [
         "-DBUILD_DOCS=OFF"
       ],
-      "post-install": [
-        "install -Dm644 -t /app/share/metainfo/ net.sourceforge.dmidiplayer.appdata.xml"
-      ],
       "sources": [
         {
           "type": "archive",
-          "url": "http://downloads.sourceforge.net/project/dmidiplayer/v1.5.2/dmidiplayer-1.5.2.tar.bz2",
-          "sha256": "9557ee1f551370f59e72638aa0def43e5e3b35d15a2605dcb5f689324b9b0cb1"
+          "url": "http://downloads.sourceforge.net/project/dmidiplayer/v1.5.3/dmidiplayer-1.5.3.tar.bz2",
+          "sha256": "8f6ac971f97a25f4dfb4272eac578c886fc41f58a1681e4cb23e9ef70f07ab56"
         }
       ]
     }
