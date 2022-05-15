@@ -103,12 +103,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://downloads.sourceforge.net/project/dmidiplayer/v1.5.3/dmidiplayer-1.5.3.tar.bz2",
-          "sha256": "8f6ac971f97a25f4dfb4272eac578c886fc41f58a1681e4cb23e9ef70f07ab56"
-        },
-        {
-            "type": "patch",
-            "path": "0001-update-to-drumstick-2.6.patch"
+          "url": "http://downloads.sourceforge.net/project/dmidiplayer/v1.5.3/dmidiplayer-1.6.0.tar.bz2",
+          "sha256": "81baac7f438e071481d9bdfc6ebcaa23e73117dba1142a70a1077a29e6deff5c"
         }
       ]
     }
