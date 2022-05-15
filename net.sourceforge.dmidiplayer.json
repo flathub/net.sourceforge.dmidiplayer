@@ -103,7 +103,7 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://downloads.sourceforge.net/project/dmidiplayer/v1.5.3/dmidiplayer-1.6.0.tar.bz2",
+          "url": "http://downloads.sourceforge.net/project/dmidiplayer/v1.6.0/dmidiplayer-1.6.0.tar.bz2",
           "sha256": "81baac7f438e071481d9bdfc6ebcaa23e73117dba1142a70a1077a29e6deff5c"
         }
       ]
