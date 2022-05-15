@@ -1,0 +1,28 @@
+From f739b2dda0b878ea4281ae285737f474695242a0 Mon Sep 17 00:00:00 2001
+Message-Id: <f739b2dda0b878ea4281ae285737f474695242a0.1652648245.git.plcl@users.sourceforge.net>
+In-Reply-To: <34f49dd795ebf0f70013ffadeac14aae67a51915.1652648245.git.plcl@users.sourceforge.net>
+References: <34f49dd795ebf0f70013ffadeac14aae67a51915.1652648245.git.plcl@users.sourceforge.net>
+From: =?UTF-8?q?Pedro=20L=C3=B3pez-Cabanillas?= <plcl@users.sourceforge.net>
+Date: Sun, 15 May 2022 22:54:45 +0200
+Subject: [PATCH 2/2] fixed appstream metainfo
+
+---
+ net.sourceforge.dmidiplayer.metainfo.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/net.sourceforge.dmidiplayer.metainfo.xml b/net.sourceforge.dmidiplayer.metainfo.xml
+index f070b1d..9fa7e35 100644
+--- a/net.sourceforge.dmidiplayer.metainfo.xml
++++ b/net.sourceforge.dmidiplayer.metainfo.xml
+@@ -30,7 +30,7 @@
+         </screenshot>
+     </screenshots>
+     <releases>
+-        <release version="1.6.0" date="2022-05-17">
++        <release version="1.6.0" date="2022-05-15">
+             <description>
+                 <p>Release dedicated to the Galician Literature Day.</p>
+                 <p>Includes the following changes</p>
+-- 
+2.16.4
+
