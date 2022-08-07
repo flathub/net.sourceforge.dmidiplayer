@@ -58,6 +58,10 @@
           "type": "archive",
           "url": "https://github.com/pedrolcl/sonivox/archive/v3.6.10.14.tar.gz",
           "sha256": "01b4870e38ca7a1ca6d781a149aa0f37eff045b54c0199e59f54c204983e6c57"
+        },
+        {
+          "type": "patch",
+          "path": "0001-disable-tests.patch"
         }
       ]
     },
