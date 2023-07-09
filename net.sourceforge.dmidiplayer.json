@@ -1,7 +1,7 @@
 {
   "app-id": "net.sourceforge.dmidiplayer",
   "runtime": "org.kde.Platform",
-  "runtime-version": "6.3",
+  "runtime-version": "6.5",
   "sdk": "org.kde.Sdk",
   "command": "dmidiplayer",
   "rename-icon": "dmidiplayer",
@@ -30,21 +30,6 @@
   "modules": [
     "shared-modules/linux-audio/fluidsynth2.json",
     {
-        "name": "qt6-qt5compat",
-        "buildsystem": "cmake-ninja",
-        "sources": [
-            {
-                "type": "archive",
-                "url": "https://download.qt.io/official_releases/qt/6.3/6.3.2/submodules/qt5compat-everywhere-src-6.3.2.tar.xz",
-                "sha256": "91a3ac0f3f87e4103afa5834ccbecff9374daf716fab362d0c5e2d6ab98560cc"
-            },
-            {
-                "type": "patch",
-                "path": "install_libdir.patch"
-            }
-        ]
-    },
-    {
       "name": "sonivox",
       "buildsystem": "cmake-ninja",
       "config-opts": [
@@ -59,8 +44,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/pedrolcl/sonivox/archive/v3.6.11.tar.gz",
-          "sha256": "7d7f34508c5475dc6f1c13d1facea084c17a5bca73d085ee9842dae62329a473"
+          "url": "https://github.com/pedrolcl/sonivox/archive/v3.6.12.tar.gz",
+          "sha256": "23a7f29c617e791dfcb50b75eef41464e4bf3fca15b19da395a64373ff5d8456"
         }
       ]
     },
@@ -90,8 +75,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://downloads.sourceforge.net/project/drumstick/2.7.2/drumstick-2.7.2.tar.bz2",
-          "sha256": "e57c46e6eaf9f387e05b8a0238d80c896cd5e3c434d8711d9a96fdf9884115ed"
+          "url": "https://downloads.sourceforge.net/project/drumstick/2.8.0/drumstick-2.8.0.tar.gz",
+          "sha256": "8b385f629a39af559974e3cc1d6b5ec5cc9bfff2f210b57d2b6fe70a5cb0aed2"
         }
       ]
     },
@@ -111,8 +96,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://www.freedesktop.org/software/uchardet/releases/uchardet-0.0.7.tar.xz",
-          "sha256": "3fc79408ae1d84b406922fa9319ce005631c95ca0f34b205fad867e8b30e45b1"
+          "url": "https://www.freedesktop.org/software/uchardet/releases/uchardet-0.0.8.tar.xz",
+          "sha256": "e97a60cfc00a1c147a674b097bb1422abd9fa78a2d9ce3f3fdcc2e78a34ac5f0"
         }
       ]
     },
@@ -123,8 +108,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://downloads.sourceforge.net/project/dmidiplayer/v1.7.1/dmidiplayer-1.7.1.tar.bz2",
-          "sha256": "e8a515b76cf18543c09be0a6712360f7649ee9fec9e3339f3a6a89b1b9948382"
+          "url": "http://downloads.sourceforge.net/project/dmidiplayer/v1.7.2/dmidiplayer-1.7.2.tar.gz",
+          "sha256": "88aca1ba55ccc4e709a6e307d76567b3851d9b51153f6a68d4398a62d79da0ca"
         }
       ]
     }
