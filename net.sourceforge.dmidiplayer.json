@@ -108,8 +108,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://downloads.sourceforge.net/project/dmidiplayer/v1.7.2/dmidiplayer-1.7.2.tar.gz",
-          "sha256": "88aca1ba55ccc4e709a6e307d76567b3851d9b51153f6a68d4398a62d79da0ca"
+          "url": "http://downloads.sourceforge.net/project/dmidiplayer/v1.7.3/dmidiplayer-1.7.3.tar.gz",
+          "sha256": "c5b5ea829bcc0454b922cc278472678e2860971a068fd30160db471f15aba17e"
         }
       ]
     }
