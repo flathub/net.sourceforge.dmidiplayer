@@ -14,7 +14,7 @@
     "--socket=pulseaudio",
     /* MIDI */
     "--device=all",
-    /* Pipewire/Jack */
+    /* Pipewire */
     "--filesystem=xdg-run/pipewire-0",
     /* Allow loading, saving files from anywhere (portals don’t work yet) */
     "--filesystem=home",
