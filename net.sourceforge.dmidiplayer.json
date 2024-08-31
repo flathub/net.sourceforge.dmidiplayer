@@ -10,10 +10,12 @@
     "--share=ipc",
     "--socket=x11",
     "--socket=wayland",
-    /* Note playback */
+    /* PulseAudio */
     "--socket=pulseaudio",
     /* MIDI */
     "--device=all",
+    /* Pipewire/Jack */
+    "--filesystem=xdg-run/pipewire-0",
     /* Allow loading, saving files from anywhere (portals don’t work yet) */
     "--filesystem=home",
     /* Allow other instances to see lockfiles */
