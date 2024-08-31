@@ -1,7 +1,7 @@
 {
   "app-id": "net.sourceforge.dmidiplayer",
   "runtime": "org.kde.Platform",
-  "runtime-version": "6.6",
+  "runtime-version": "6.7",
   "sdk": "org.kde.Sdk",
   "command": "dmidiplayer",
   "rename-icon": "dmidiplayer",
@@ -28,7 +28,25 @@
     "*.la"
   ],
   "modules": [
-    "shared-modules/linux-audio/fluidsynth2.json",
+    {
+      "name": "fluidsynth",
+      "buildsystem": "cmake-ninja",
+      "cleanup": [
+          "/bin",
+          "/include",
+          "/lib/cmake",
+          "/lib/pkgconfig",
+          "/share/man",
+          "*.so"
+      ],
+      "sources": [
+          {
+              "type": "archive",
+              "url": "https://github.com/FluidSynth/fluidsynth/archive/v2.3.6.tar.gz",
+              "sha256": "3340d73286b28fe6e5150fbe12648d4640e86c64c228878b572773bd08cac531"
+          }
+      ]
+    },
     {
       "name": "sonivox",
       "buildsystem": "cmake-ninja",
@@ -75,8 +93,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://downloads.sourceforge.net/project/drumstick/2.9.0/drumstick-2.9.0.tar.gz",
-          "sha256": "b2692d3f96a1537ecf3a81dcad5c88ff700fc0af400dc2570cce19cb6cd1023a"
+          "url": "https://downloads.sourceforge.net/project/drumstick/2.9.1/drumstick-2.9.1.tar.gz",
+          "sha256": "a7049333d5411faf4d91a81ae666746106b578897fc0713a84325f65fdd06ffb"
         }
       ]
     },
@@ -108,8 +126,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://downloads.sourceforge.net/project/dmidiplayer/v1.7.3/dmidiplayer-1.7.3.tar.gz",
-          "sha256": "c5b5ea829bcc0454b922cc278472678e2860971a068fd30160db471f15aba17e"
+          "url": "http://downloads.sourceforge.net/project/dmidiplayer/v1.7.4/dmidiplayer-1.7.4.tar.gz",
+          "sha256": "90ce248dea693afb61cb6ff41ea2fdd36bd4320ab2cf555e564cbc11cac3c9b5"
         }
       ]
     }
