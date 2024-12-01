@@ -1,21 +1,21 @@
 {
   "app-id": "net.sourceforge.dmidiplayer",
   "runtime": "org.kde.Platform",
-  "runtime-version": "6.7",
+  "runtime-version": "6.8",
   "sdk": "org.kde.Sdk",
   "command": "dmidiplayer",
   "rename-icon": "dmidiplayer",
   "finish-args": [
     /* X11 + XShm access */
     "--share=ipc",
-    "--socket=x11",
     "--socket=wayland",
+    "--socket=fallback-x11",
     /* PulseAudio */
     "--socket=pulseaudio",
-    /* MIDI */
-    "--device=all",
     /* Pipewire */
     "--filesystem=xdg-run/pipewire-0",
+    /* MIDI */
+    "--device=all",
     /* Allow loading, saving files from anywhere (portals don’t work yet) */
     "--filesystem=home",
     /* Allow other instances to see lockfiles */
@@ -44,8 +44,8 @@
       "sources": [
           {
               "type": "archive",
-              "url": "https://github.com/FluidSynth/fluidsynth/archive/v2.3.6.tar.gz",
-              "sha256": "3340d73286b28fe6e5150fbe12648d4640e86c64c228878b572773bd08cac531"
+              "url": "https://github.com/FluidSynth/fluidsynth/archive/v2.4.0.tar.gz",
+              "sha256": "fd4d216a3030abc56a339985ab0506328660cd77b2d71dd98c240c58c03d8f7f"
           }
       ]
     },
@@ -64,8 +64,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/pedrolcl/sonivox/archive/v3.6.12.tar.gz",
-          "sha256": "23a7f29c617e791dfcb50b75eef41464e4bf3fca15b19da395a64373ff5d8456"
+          "url": "https://github.com/pedrolcl/sonivox/archive/v3.6.14.tar.gz",
+          "sha256": "216171c5bbe4f5a9524d73a2ee9e7e597c71a040e5d7c9e35b92c9dc459c2985"
         }
       ]
     },
