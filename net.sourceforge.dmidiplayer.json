@@ -1,7 +1,7 @@
 {
   "app-id": "net.sourceforge.dmidiplayer",
   "runtime": "org.kde.Platform",
-  "runtime-version": "6.8",
+  "runtime-version": "6.10",
   "sdk": "org.kde.Sdk",
   "command": "dmidiplayer",
   "rename-icon": "dmidiplayer",
@@ -14,8 +14,6 @@
     "--socket=pulseaudio",
     /* Pipewire */
     "--filesystem=xdg-run/pipewire-0",
-    /* MIDI */
-    "--device=all",
     /* Allow loading, saving files from anywhere (portals don’t work yet) */
     "--filesystem=home",
     /* Allow other instances to see lockfiles */
